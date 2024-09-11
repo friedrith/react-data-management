@@ -4,7 +4,7 @@ A comparison of different data management systems in react
 
 - [x] [props-drilling](./props-drilling)
 - [x] [context](./context)
-- [ ] [redux](./redux)
-- [ ] (reactive variables)[https://www.apollographql.com/docs/react/local-state/reactive-variables/#usereactivevar-hook]
+- [x] [redux](./redux)
+- [x] [reactive variable](./reactive-variable)
 - [ ] (zustand)[https://github.com/pmndrs/zustand]
 - [ ] (mobx)[https://mobx.js.org/README.html]
