@@ -1,12 +1,17 @@
-import { useContext } from 'react'
-import Context from './Context'
+import { useAppDispatch, useAppSelector } from '../hooks'
+import { getValue, setValue } from '../store'
 
 export default function Input() {
-  const { value, onChange } = useContext(Context)
+  const value = useAppSelector(getValue)
+  const dispatch = useAppDispatch()
 
   console.log('Input')
 
   return (
-    <input type='text' value={value} onChange={e => onChange(e.target.value)} />
+    <input
+      type='text'
+      value={value}
+      onChange={e => dispatch(setValue(e.target.value))}
+    />
   )
 }

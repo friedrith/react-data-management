@@ -1,8 +1,8 @@
-import { useContext } from 'react'
-import Context from './Context'
+import { useAppSelector } from '../hooks'
+import { getValue } from '../store'
 
 export default function Footer() {
-  const { value } = useContext(Context)
+  const value = useAppSelector(getValue)
 
   console.log('Footer')
 
