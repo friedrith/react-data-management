@@ -6,5 +6,5 @@ A comparison of different data management systems in react
 - [x] [context](./context)
 - [x] [redux](./redux)
 - [x] [reactive variable](./reactive-variable)
-- [ ] (zustand)[https://github.com/pmndrs/zustand]
+- [x] [zustand](./zustand)
 - [ ] (mobx)[https://mobx.js.org/README.html]
